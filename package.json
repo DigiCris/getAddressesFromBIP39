@@ -1,0 +1,23 @@
+{
+  "name": "getaddressesfrombip39",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BIP39 mnemonics -> EVM addresses -> comparison against Safe owners",
+  "scripts": {
+    "test": "node --test",
+    "test:e2e": "node --test e2e/safe.e2e.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigiCris/getAddressesFromBIP39.git"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  },
+  "devDependencies": {
+    "@safe-global/safe-smart-account": "1.5.0"
+  }
+}
