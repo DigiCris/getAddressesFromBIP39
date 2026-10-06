@@ -1,0 +1,1 @@
+# getAddressesFromBIP39
